@@ -71,7 +71,8 @@ struct DragAndDropView: View {
                                 }
                                 
                                 
-                            }.background(Color.purple)
+                            }
+                            .background(Color.purple)
                             .onAppear {
                                 if index == 0 {
                                     isReady = true

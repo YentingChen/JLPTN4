@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		9D92DD712BEAD8EC00C7FA69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D92DD702BEAD8EC00C7FA69 /* ContentView.swift */; };
+		9D92DD732BF40D9E00C7FA69 /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D92DD722BF40D9E00C7FA69 /* TagListView.swift */; };
+		9DA669D32C0B73490055E324 /* BlogCardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA669D22C0B73490055E324 /* BlogCardScreen.swift */; };
+		9DA669D52C0BE8C80055E324 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA669D42C0BE8C80055E324 /* Colors.xcassets */; };
+		9DA669E32C0CAAB00055E324 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DA669E22C0CAAB00055E324 /* NotoSans-Regular.ttf */; };
+		9DA669E82C0CB4FF0055E324 /* NotoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DA669E72C0CB4FF0055E324 /* NotoSans-SemiBold.ttf */; };
+		9DA669EA2C0CB5D70055E324 /* NotoSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DA669E92C0CB5D70055E324 /* NotoSans-Medium.ttf */; };
+		9DA669ED2C0CC1130055E324 /* BlogCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA669EC2C0CC1130055E324 /* BlogCard.swift */; };
+		9DA669EF2C0CC15C0055E324 /* CapsuleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA669EE2C0CC15C0055E324 /* CapsuleLabel.swift */; };
+		9DA669F12C0CC1B90055E324 /* BlogCardColorSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA669F02C0CC1B90055E324 /* BlogCardColorSet.swift */; };
 		9DAF02B82BD8209B00A5A23F /* JLPT_N4_GrammarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAF02B72BD8209B00A5A23F /* JLPT_N4_GrammarApp.swift */; };
 		9DAF02BA2BD8209B00A5A23F /* GrammarLIstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAF02B92BD8209B00A5A23F /* GrammarLIstView.swift */; };
 		9DAF02BC2BD8209C00A5A23F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DAF02BB2BD8209C00A5A23F /* Assets.xcassets */; };
@@ -18,6 +27,15 @@
 
 /* Begin PBXFileReference section */
 		9D92DD702BEAD8EC00C7FA69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9D92DD722BF40D9E00C7FA69 /* TagListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagListView.swift; sourceTree = "<group>"; };
+		9DA669D22C0B73490055E324 /* BlogCardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogCardScreen.swift; sourceTree = "<group>"; };
+		9DA669D42C0BE8C80055E324 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		9DA669E22C0CAAB00055E324 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		9DA669E72C0CB4FF0055E324 /* NotoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		9DA669E92C0CB5D70055E324 /* NotoSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Medium.ttf"; sourceTree = "<group>"; };
+		9DA669EC2C0CC1130055E324 /* BlogCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogCard.swift; sourceTree = "<group>"; };
+		9DA669EE2C0CC15C0055E324 /* CapsuleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleLabel.swift; sourceTree = "<group>"; };
+		9DA669F02C0CC1B90055E324 /* BlogCardColorSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogCardColorSet.swift; sourceTree = "<group>"; };
 		9DAF02B42BD8209B00A5A23F /* JLPT N4 Grammar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JLPT N4 Grammar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DAF02B72BD8209B00A5A23F /* JLPT_N4_GrammarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLPT_N4_GrammarApp.swift; sourceTree = "<group>"; };
 		9DAF02B92BD8209B00A5A23F /* GrammarLIstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarLIstView.swift; sourceTree = "<group>"; };
@@ -38,6 +56,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9DA669E62C0CB2AB0055E324 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9DA669E22C0CAAB00055E324 /* NotoSans-Regular.ttf */,
+				9DA669E92C0CB5D70055E324 /* NotoSans-Medium.ttf */,
+				9DA669E72C0CB4FF0055E324 /* NotoSans-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9DA669EB2C0CC0E90055E324 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9DA669F22C0CC2320055E324 /* BlogCard */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9DA669F22C0CC2320055E324 /* BlogCard */ = {
+			isa = PBXGroup;
+			children = (
+				9DA669D22C0B73490055E324 /* BlogCardScreen.swift */,
+				9DA669EE2C0CC15C0055E324 /* CapsuleLabel.swift */,
+				9DA669EC2C0CC1130055E324 /* BlogCard.swift */,
+				9DA669F02C0CC1B90055E324 /* BlogCardColorSet.swift */,
+			);
+			path = BlogCard;
+			sourceTree = "<group>";
+		};
 		9DAF02AB2BD8209B00A5A23F = {
 			isa = PBXGroup;
 			children = (
@@ -57,11 +104,15 @@
 		9DAF02B62BD8209B00A5A23F /* JLPT N4 Grammar */ = {
 			isa = PBXGroup;
 			children = (
+				9DA669E62C0CB2AB0055E324 /* Fonts */,
 				9DAF02B72BD8209B00A5A23F /* JLPT_N4_GrammarApp.swift */,
 				9DAF02B92BD8209B00A5A23F /* GrammarLIstView.swift */,
 				9DAF02C52BD821D200A5A23F /* GrammarCardView.swift */,
 				9DAF02C92BE36D7700A5A23F /* DragAndDropView.swift */,
 				9D92DD702BEAD8EC00C7FA69 /* ContentView.swift */,
+				9DA669EB2C0CC0E90055E324 /* Screens */,
+				9D92DD722BF40D9E00C7FA69 /* TagListView.swift */,
+				9DA669D42C0BE8C80055E324 /* Colors.xcassets */,
 				9DAF02BB2BD8209C00A5A23F /* Assets.xcassets */,
 				9DAF02BD2BD8209C00A5A23F /* Preview Content */,
 			);
@@ -134,6 +185,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA669E32C0CAAB00055E324 /* NotoSans-Regular.ttf in Resources */,
+				9DA669E82C0CB4FF0055E324 /* NotoSans-SemiBold.ttf in Resources */,
+				9DA669EA2C0CB5D70055E324 /* NotoSans-Medium.ttf in Resources */,
+				9DA669D52C0BE8C80055E324 /* Colors.xcassets in Resources */,
 				9DAF02BF2BD8209C00A5A23F /* Preview Assets.xcassets in Resources */,
 				9DAF02BC2BD8209C00A5A23F /* Assets.xcassets in Resources */,
 			);
@@ -147,10 +202,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DAF02BA2BD8209B00A5A23F /* GrammarLIstView.swift in Sources */,
+				9DA669D32C0B73490055E324 /* BlogCardScreen.swift in Sources */,
+				9DA669F12C0CC1B90055E324 /* BlogCardColorSet.swift in Sources */,
+				9D92DD732BF40D9E00C7FA69 /* TagListView.swift in Sources */,
 				9D92DD712BEAD8EC00C7FA69 /* ContentView.swift in Sources */,
 				9DAF02C62BD821D200A5A23F /* GrammarCardView.swift in Sources */,
 				9DAF02B82BD8209B00A5A23F /* JLPT_N4_GrammarApp.swift in Sources */,
 				9DAF02CA2BE36D7700A5A23F /* DragAndDropView.swift in Sources */,
+				9DA669EF2C0CC15C0055E324 /* CapsuleLabel.swift in Sources */,
+				9DA669ED2C0CC1130055E324 /* BlogCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +342,7 @@
 				DEVELOPMENT_TEAM = UNAH767L53;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "JLPT-N4-Grammar-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,6 +372,7 @@
 				DEVELOPMENT_TEAM = UNAH767L53;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "JLPT-N4-Grammar-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

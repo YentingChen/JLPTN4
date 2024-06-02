@@ -6,12 +6,20 @@ struct ContentView: View {
             List {
                 NavigationLink("Drag and drop") {
                     DragContainer(child: DragAndDropView())
-                        
+                    
                 }
                 NavigationLink("Grammar List") {
                     GrammarList()
                 }
-
+                
+                NavigationLink("TagList") {
+                    TagListView()
+                }
+                
+                NavigationLink("Blog Card") {
+                    BlogCardScreen()
+                }
+                
             }
         }
     }
